@@ -45,8 +45,11 @@ main {
   letter-spacing: 0.5rem;
   text-transform: uppercase;
   color: hsl(228deg, 12%, 48%);
-  width: -webkit-fill-available;
-  text-align: left;
+        width: 100%;
+        width: -moz-available;          
+        width: -webkit-fill-available; 
+        width: fill-available;
+        text-align: left;
 }
 .main-container .text-section h1 {
   font-family: Fraunces;
